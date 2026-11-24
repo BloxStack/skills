@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "bloxstack",
+  "version": "1.0.0",
+  "description": "Connect your AI assistant to BloxStack and see what your Roblox studio is working on.",
+  "author": {
+    "name": "BloxStack"
+  },
+  "homepage": "https://bloxstack.app/studio",
+  "repository": "https://github.com/BloxStack/skills",
+  "keywords": ["roblox", "bloxstack", "mcp", "onboarding"],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/bloxstack-onboarding/SKILL.md",
+      "interface": {
+        "displayName": "BloxStack",
+        "shortDescription": "Connect your Roblox team",
+        "longDescription": "Connect your AI assistant to your team's BloxStack workspace. Choose a studio, approve its permissions and get a first briefing on the games and tasks your team is working on. Read-only access is enough to get started.",
+        "developerName": "BloxStack",
+        "category": "Developer Tools",
+        "websiteURL": "https://bloxstack.app/studio",
+        "supportURL": "https://bloxstack.app/support",
+        "privacyPolicyURL": "https://bloxstack.app/privacy",
+        "termsOfServiceURL": "https://bloxstack.app/terms",
+        "defaultPrompt": ["Connect my BloxStack studio and tell me what our team is working on."],
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}
