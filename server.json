@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.BloxStack/bloxstack",
+  "title": "BloxStack Studio",
+  "description": "Connect an AI assistant to a Roblox team's games, tasks and collaborators in BloxStack Studio.",
+  "version": "1.0.0",
+  "websiteUrl": "https://bloxstack.app/learn/studio/agents",
+  "icons": [
+    {
+      "src": "https://bloxstack.app/icon-192.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "192x192"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bloxstack.app/mcp"
+    }
+  ]
+}
