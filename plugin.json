@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "bloxstack",
   "version": "1.0.0",
-  "description": "Connect your AI assistant to BloxStack and see what your Roblox studio is working on.",
+  "description": "Connect an assistant to BloxStack Studio, where Roblox teams organize their own games, tasks, and files.",
   "author": {
     "name": "BloxStack"
   },
@@ -14,15 +14,15 @@
       "onboardingSkill": "./skills/bloxstack-onboarding/SKILL.md",
       "interface": {
         "displayName": "BloxStack",
-        "shortDescription": "Connect your Roblox team",
-        "longDescription": "Connect your AI assistant to your team's BloxStack workspace. Choose a studio, approve its permissions and get a first briefing on the games and tasks your team is working on. Read-only access is enough to get started.",
+        "shortDescription": "Connect your team's workspace",
+        "longDescription": "BloxStack Studio gives Roblox teams tools to organize their games, plan tasks, and share files. Choose your studio and connect your assistant with read-only access. Draft a first task in chat or ask about work your team has already added.",
         "developerName": "BloxStack",
         "category": "Developer Tools",
         "websiteURL": "https://bloxstack.app/studio",
         "supportURL": "https://bloxstack.app/support",
         "privacyPolicyURL": "https://bloxstack.app/privacy",
         "termsOfServiceURL": "https://bloxstack.app/terms",
-        "defaultPrompt": ["Connect my BloxStack studio and tell me what our team is working on."],
+        "defaultPrompt": ["Connect my BloxStack studio and help me get started."],
         "composerIcon": "./assets/icon.png",
         "logo": "./assets/icon.png"
       }
