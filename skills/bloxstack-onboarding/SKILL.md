@@ -1,7 +1,7 @@
 ---
 name: bloxstack-onboarding
 description: Connect an AI assistant to a Roblox team's BloxStack workspace through the BloxStack MCP server. Use when a creator asks to get started on BloxStack, connect Claude Code, Codex, Cursor or another MCP client, or get a first briefing on their studio's games and tasks.
-license: "May be installed and redistributed verbatim with attribution to BloxStack."
+license: MIT
 metadata:
   author: BloxStack
   runtime: "MCP clients with remote HTTP and OAuth support"
