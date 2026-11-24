@@ -10,7 +10,7 @@
     {
       "name": "bloxstack-onboarding",
       "source": "./",
-      "description": "Connect Claude to your Roblox team's BloxStack studio and get a first briefing on its games and tasks."
+      "description": "Connect Claude to your team's BloxStack Studio workspace to plan a first task or ask about work your team has added."
     }
   ]
 }
