@@ -1,0 +1,16 @@
+{
+  "name": "bloxstack",
+  "owner": {
+    "name": "BloxStack"
+  },
+  "metadata": {
+    "description": "Skills and MCP connections for Roblox teams using BloxStack."
+  },
+  "plugins": [
+    {
+      "name": "bloxstack-onboarding",
+      "source": "./",
+      "description": "Connect Claude to your Roblox team's BloxStack studio and get a first briefing on its games and tasks."
+    }
+  ]
+}
