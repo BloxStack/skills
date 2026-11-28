@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "bloxstack",
   "version": "1.0.0",
-  "description": "Connect an assistant to BloxStack Studio, where Roblox teams organize their own games, tasks, and files.",
+  "description": "Set up Bloxstack with your assistant: one Roblox sign-in, then your studio, free Studio hour, game and portfolio.",
   "author": {
     "name": "BloxStack"
   },

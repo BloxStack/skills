@@ -1,4 +1,4 @@
 interface:
   display_name: "BloxStack Onboarding"
-  short_description: "Connect an assistant to your Roblox team’s workspace"
-  default_prompt: "Use $bloxstack-onboarding to connect my BloxStack studio and help me get started."
+  short_description: "Set up your Bloxstack account and free Studio hour"
+  default_prompt: "Use $bloxstack-onboarding to set me up on Bloxstack."
